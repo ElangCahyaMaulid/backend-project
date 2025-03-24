@@ -1,0 +1,7 @@
+[build]
+  image = "docker:20.10.21"
+  build_command = "docker-compose up -d"
+  use_dockerfile = true
+
+[env]
+  NODE_ENV = "production"
