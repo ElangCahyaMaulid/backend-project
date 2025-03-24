@@ -1,0 +1,8 @@
+[build]
+  # Anda dapat menentukan base image yang diinginkan (contoh menggunakan image Docker versi tertentu)
+  image = "docker:20.10.21"
+
+[env]
+  # Jika aplikasi Anda memerlukan variabel lingkungan, Anda bisa mendefinisikannya di sini.
+  NODE_ENV = "production"
+# Anda juga bisa menambahkan variabel lingkungan lainnya sesuai kebutuhan
